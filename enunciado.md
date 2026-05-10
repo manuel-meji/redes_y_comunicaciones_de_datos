@@ -49,3 +49,4 @@ Desde la terminal de **PC0** realice las siguientes pruebas:
 ping 192.168.1.1     # Router0
 ping 192.168.1.5     # Switch0 (gestión)
 ping 192.168.2.11    # PC1 (Inter-VLAN)
+ping 192.168.1.12    #PC2 (Dentro del mismo router)
