@@ -35,7 +35,7 @@ Asigne las siguientes direcciones IP respetando la Puerta de Enlace Predetermina
 
 Configure la interfaz virtual VLAN 1 para permitir la administración del Switch0:
 
-- Asignar IP: `192.168.1.2/24`
+- Asignar IP: `192.168.1.5/24`
 - Activar la interfaz
 - Configurar **default gateway** (`ip default-gateway 192.168.1.1`)
 
@@ -47,5 +47,5 @@ Desde la terminal de **PC0** realice las siguientes pruebas:
 
 ```bash
 ping 192.168.1.1     # Router0
-ping 192.168.1.2     # Switch0 (gestión)
+ping 192.168.1.5     # Switch0 (gestión)
 ping 192.168.2.11    # PC1 (Inter-VLAN)
